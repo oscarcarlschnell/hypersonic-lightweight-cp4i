@@ -6,10 +6,10 @@ spec:
   generators:
   - list:
       elements:
-        #- name: apiconnect
-        #  namespace: cp4i
-        #  sync-wave: "300"
-        #  target-revision: HEAD
+        - name: apiconnect
+          namespace: cp4i
+          sync-wave: "300"
+          target-revision: HEAD
         - name: mq
           namespace: cp4i
           sync-wave: "300"
